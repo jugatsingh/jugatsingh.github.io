@@ -1609,12 +1609,12 @@
 
 		.wrapper.style2 {
 			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			text-shadow: none;
 		}
 
 		.wrapper.style3 {
 			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			text-shadow: 1px 1px 0px #676767;
 		}
 
 		.wrapper.style4 {
@@ -1651,7 +1651,7 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 1000;
 		cursor: default;
 	}
 
@@ -1802,7 +1802,7 @@
 			}
 
 				.box.style1 {
-					padding: 3em 2em 3.5em 2em;
+					padding: 2em 2em 3em 2em;
 				}
 
 					.box.style1 h3 {
@@ -1810,7 +1810,7 @@
 					}
 
 				.box.style2 h3 {
-					margin-bottom: 0.25em;
+					margin-bottom: 0.005em;
 				}
 
 				.box.style2 .image {
