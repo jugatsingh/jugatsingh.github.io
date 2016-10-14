@@ -74,18 +74,17 @@
 			<div class="wrapper style3">
 				<article id="portfolio">
 					<header>
-						<h2>Here’s some tinkering I have done.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat lorem ipsum dolore.</p>
+						<h2 style="margin-top: -5%">Here’s some tinkering I have done.</h2><br><br>
 					</header>
 					<div class="container">
 						
 						<div class="row">
-			<div class="2u 12u(mobile)"></div>
+						<div class="2u 12u(mobile)"></div>
 							<div class="3u 12u(mobile)">
 							<a href="#fractal" class="portfolio-link" data-toggle="modal">
 								<article class="box style2" style="background-color: #234ca1">
 									<div class="image featured"><img src="images/drdo.png" alt=""  /></div>
-									<h3 style="margin-top: -15%;color: #F8F8F8" ">Project Intern at DRDO</h3>
+									<h3 style=";color: #F8F8F8" ">Project Intern at DRDO</h3>
 									<p style="color: #EAEAE9;/* font-size: 14px; */text-shadow: none;line-height: 20px;">Machine Learning, Rapid Prototyping, Exploratory Research.</p>
 								</article>
 							</a>
@@ -94,7 +93,7 @@
 							<a href="#spn" class="portfolio-link" data-toggle="modal">
 								<article class="box style2" style="background-color: #234ca1">
 									<div class="image featured"><img src="images/FIAhomepage.png" alt="" /></div>
-									<h3 style="color: #F8F8F8; margin-top: -15%"><a href="#">Digital Image Forensics</a></h3>
+									<h3 style="color: #F8F8F8;"><a href="#">Digital Image Forensics</a></h3>
 									<p style="color: #EAEAE9;/* font-size: 14px; */text-shadow: none;line-height: 20px;">Current Research in Source Camera Identification.</p>
 								</article>
 								</a>
@@ -202,7 +201,7 @@
                     </div>
                     <div class="footer-col col-md-12" style="color:#808080;font-size:15px;margin-bottom:10px">
                     
-                    &copy;Copyright 2016. All Rights Reserved | Developed with <i class="fa fa-heart" aria-hidden="true"></i> by Jugat Singh Lamba | Design: <a href="http://html5up.net">HTML5 UP</a> 
+                    &copy;Copyright 2016. All Rights Reserved | Developed by Jugat Singh Lamba | Design: <a href="http://html5up.net">HTML5 UP</a> 
                     </div>
                     
                 </div>
@@ -251,7 +250,7 @@
                             <b>Location:</b> Chennai, Tamil Nadu<br>
                             <b>Duration:</b> April'15 <br>
                             <b>Technical Stack:</b> Linux/Unix Machines, OpenCV 2, QT5, C++<br>
-                            <b>Code:</b><a href="https://github.com/jugatsingh/barcode-reader" title="" class="kdac">on github</a>
+                            <b>Code:</b><a href="https://github.com/jugatsingh/barcode-reader" title="" class="kdac">on Github</a>
                         </div>
                     </div>
                     <div class="col-sm-10 col-sm-offset-2 col-xs-12" >
@@ -321,38 +320,25 @@
                         <div style="text-align:left;margin-top:15px;font-size:1.1em" >
                             <b>Location:</b> Chennai, Tamil Nadu<br>
                             <b>Duration:</b> Sept'15 <br>
-                            <b>Technical Stack:</b> Linux/Unix Machines, Java<br>
-                            <b>Code:</b><a href="https://github.com/jugatsingh/collision-simulator" title="" class="kdac">on github</a>
+                            <b>Technical Stack:</b> Linux/Unix Machines, Java/Python<br>
+                            <b>Code:</b><a href="https://github.com/jugatsingh/collision-simulator" title="" class="kdac">on Github</a>
                         </div>
                     </div>
                     <div class="col-sm-10 col-sm-offset-2 col-xs-12" >
                         <div class="modal-body">
                             <h3><span class="modal-b kdac">Motivation</span></h3> <br>
                             <p style="text-align: justify; margin-top: -4%">
-                            Staying in a hostel comes with added overheads, including doing your own grocery shopping and laundry! One such tiresome trip to the department store, staring at all the millenials mindlessly fidgeting with their phones in the long queue at the cash counter made me wonder what if we could save time by decentralizing billing through the power of:<br><u> our smartphones</u>, a magical wand that everybody wields.
-                            <br><h7><span class="modal-b kdac">Conceptually,</span></h7>  every customer could simply scan the barcodes of their products and prepare a bill that they pay either via online payment or cash at the counter, and save themselves from going through the monotonous routine of a queue everytime.<br>
-                            Since this was the first time I had forayed into image processing in my freshman year, I focused on the image related procedure rather than the peripheral frills like bill generation and creating a product database.<br>
+                            This happened to be my project for the Algorithms and Data Structure course that I took in my sophomore year.
+                            The course among other aspects of algorithmic thinking and analysis covered various algorihthmic approaches like the ususal Divide and Conquer, Dynamic Programming, Hashing, Backtracking, Branch and Bound, and you know the rest..<br>
+                            However, the one that my inner procrastinator could relate the most to was <span class="modal-b kdac">Event-Driven Programming</span>; well the relation is self explanatory.
+                            <br><h7><span class="modal-b kdac">Since,</span></h7>  anything visual has a strong influence on the mind and is an impeccable tool to convey an idea, my project was an organic extension of this belief.<br>
                             <h3><span class="modal-b kdac">Workflow</span></h3> <br>
                             <p style="text-align: justify; margin-top: -4%">
-                            My implementation is centered around accessing pixel values, denoising the image, applying the decoding algorithm for a UPC barcode and returning the numeric code that is typically associated with a product in the database.<br>
-                            The entire image processing facet is handled through OpenCV as it provides a host of functionalities like in-built functions for denoising.
-                            I have also worked on minimal GUI windows that were coded using QT5 that manage the entire I/O and pop up once the program is launched from the terminal.
+                            There were two obvious design choices: time-driven or event-driven.
+                            To increase the accuracy of the simulator so that a collision event is not missed out in the predefined time interval in the case of a time-driven approach, event-driven was chosen as the better paradigm. Naturally complexity is an important metric especially if the project happens to be for the Algorithms course, the data structure used for the events was a <span class="modal-b kdac">Minimum Priority Heap</span> which brought down the time complexity from O(n<sup>2</sup>) to O(nlogn).
+                            The program could easily support a simulation of at-least 500 balls, for the sake of a clean visual representation the following GIF shows an execution with just 200 balls.
                             </p>
-                            <img src="images/Selection_005.png" alt="" class="img-responsive img-centered" width= "60%" height= "60%" style="margin-top: -4%">
-                            <br>
-                            <br>
-                            <img src="images/test1.jpg" alt="" class="img-responsive img-centered" style="margin-top: -4%" width="20%" height="20%">
-                            <p class="12u 12u(mobile)" style="text-align:center; margin-top:-2%;">test1.jpg</p>
-                            <div class="row"><div class="6u 12u(mobile)">
-                            <img src="images/Selection_002.png" alt="" class="img-responsive img-centered" style="margin-top: -4%">
-                            </div>
-                        	<div class="6u 12u(mobile)">
-                            <img src="images/Selection_003.png" alt="" class="img-responsive img-centered" style="margin-top: -4%">
-                            </div>
-                            </div>
-                            <img src="images/Selection_004.png" alt="" class="img-responsive img-centered" style="margin-top: -4%">
-                            </p><br><br>
-                            
+                            <img src="images/balls.gif" alt="" class="img-responsive img-centered" width= "50%" height= "50%" style="margin-top: -4%">
                             </p>
                         </div>
                     </div>
